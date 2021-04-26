@@ -1,6 +1,6 @@
 from PIL import Image
 from IPython.display import Image
-from matplotlib.colors import makeMappingArray
+#from matplotlib.colors import makeMappingArray
 from numpy import column_stack
 from numpy.ma import size
 import streamlit as st
