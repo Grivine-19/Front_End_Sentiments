@@ -87,8 +87,8 @@ def app():
         choice2 = st.selectbox("COVID-19 Information", options2)
         if choice2 == "News":
             st.subheader("News")
-            st.video("shorturl.at/rAJU5")
-            st.video("shorturl.at/gtQT3", start_time=15)
+            st.video("https://www.youtube.com/watch?v=5DGwOJXSxqg&list=WL&index=124")
+            st.video("https://www.youtube.com/watch?v=-Fdo_HT3X80&list=TLPQMjAwNDIwMjFY9vfUW9ZBTA", start_time=15)
         else:
             st.subheader("Handy Links")
             st.markdown(''' 
