@@ -15,8 +15,8 @@ from collections import Counter
 import plotly.figure_factory as ff
 from nrclex import NRCLex
 import nltk
-import spacy 
-#from spacy import en as en_core_web_sm #to host on streamlit
+import spacy
+import en_core_web_sm
 import operator
 from collections import defaultdict
 
@@ -148,7 +148,8 @@ def app():
         # remove duplicate claims (Not really needed since dropped already)
         words = covid_data.text_stem.unique()
         # NER list we'll use - Perhaps could be expanded?
-        nlp = spacy.load('en')
+        nlp = en_core_web_sm.load()
+        #nlp = spacy.load(en_core_web_sm)
         corpus = list(nlp.pipe(words[:700]))
         all_ents = defaultdict(int)
         for i, doc in enumerate(corpus):
