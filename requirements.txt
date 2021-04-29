@@ -2,7 +2,7 @@ pandas==1.2.3
 nltk==3.6.2
 streamlit==0.80.0
 plotly==4.14.3
-spacy==3.0.6
+spacy<=3.0.6
 stop_words==2018.7.23
 NRCLex==3.0.0
 numpy==1.20.2
