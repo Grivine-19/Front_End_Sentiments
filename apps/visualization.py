@@ -19,7 +19,7 @@ import spacy
 import operator
 from collections import defaultdict
 
-#nltk.download('punkt')
+nltk.download('punkt')
 
 covid_data = get_data('data/nrb.csv')
 
