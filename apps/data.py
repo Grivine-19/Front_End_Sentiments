@@ -48,9 +48,3 @@ def app():
 
     fig.update_layout(margin=dict(l=5, r=5, b=10, t=10))
     st.write(fig)
-
-    #Buttons tof data information
-    if st.button("Data Info"):
-        st.write(covid_data.shape)
-        
-    

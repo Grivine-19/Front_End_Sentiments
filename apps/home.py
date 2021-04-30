@@ -1,16 +1,6 @@
 import streamlit as st
-import streamlit.components.v1 as stc
 
 def app():
-
-    #Title for the page
-    HTML_BANNER = """
-    <div style="background-color:#464e5f;padding:10px;border-radius:10px">
-    <h1 style="color:white;text-align:center;">Coronavirus Sentiment Analysis </h1>
-    </div>
-    """
-    stc.html(HTML_BANNER)
-
     #Layout columns
     #Column_1
     col1, col2 = st.beta_columns([3,2])
@@ -72,10 +62,11 @@ def app():
             * **Hybrid systems:** combine both rule-based and automatic approaches.
 
             #### **Created By:**
-            #### [Jacklyne Betty](https://www.linkedin.com/in/grivine/ "LinkedIn,Jacklyne") - Professional Mentor
+            #### [Jacklyne Betty](https://www.linkedin.com/in/betty-jacklyne-03681535/ "LinkedIn,Jacklyne") - Professional Mentor
             #### [Grivine Ochieng](https://www.linkedin.com/in/grivine/ "LinkedIn,Grivine") - Data Scientist
 
             #### **Find the project video here:** *[Youtube](https://bit.ly/2zZCxLb)*
+            #### **See the source code at:** *[Github](https://github.com/Grivine-19/Front_End_Sentiments)*
 
             #### **Acknowledgement:**
             #### *[KamiLimu](https://www.kamilimu.org/)*

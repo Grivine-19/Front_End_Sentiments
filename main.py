@@ -1,6 +1,15 @@
 import streamlit as st
 from multiapp import MultiApp
 from apps import home, data, visualization, models
+import streamlit.components.v1 as stc
+
+#Title for the page
+HTML_BANNER = """
+<div style="background-color:#0723f5;padding:10px;border-radius:10px">
+<h1 style="color:white;text-align:center;">Coronavirus Sentiment Analysis </h1>
+</div>
+    """
+stc.html(HTML_BANNER)
 
 app = MultiApp()
 
